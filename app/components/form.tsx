@@ -15,7 +15,7 @@ export function Form() {
         const formData = new FormData(form);
 
         // Thay YOUR_ACCESS_KEY bằng key thật của bạn từ https://web3forms.com
-        formData.append("access_key", "YOUR_ACCESS_KEY");
+        formData.append("access_key", "894e3cce-f2f7-4f83-b819-a6797c71b0b8");
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
