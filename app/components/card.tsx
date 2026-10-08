@@ -83,7 +83,7 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
             </React.Fragment>
         );
 
-        
+
         const getWordPressCard = (keyName: string, title: string, titleHref: string, demoHref: string, desc: string, techStack: string[], imgSrc: any) => (
             <React.Fragment key={keyName}>
                 <div className="relative bg-[#2a2a2a] p-8 flex flex-col justify-between gap-8 shadow-xl group rounded-xl">
@@ -196,12 +196,12 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
         const t1 = (key: string) => getTemplateCard(key, 'VENETA // PORTFOLIO TEMPLATE', ['Next.js', 'Tailwind CSS', 'GSAP'], 'https://preview.themeforest.net/item/vince-multipurpose-ecommerce-html5-template/full_screen_preview/57202368', templateImg);
 
         const fwmsProject = (key: string) => getErpCard(
-            key, 
-            'FWMS - Hệ thống giảm lãng phí thức ăn cho nhà hàng khách sạn tích hợp AI', 
-            'https://system-waste-less-ai-1.onrender.com/', 
-            'Dự án khóa luận tốt nghiệp gồm 5 người có tích hợp AI.', 
-            ['React', 'Tailwind', 'Node.js', 'Gemini AI API', 'PostgreSQL', 'REST API'], 
-            fwmsImg, 
+            key,
+            'FWMS - Hệ thống giảm lãng phí thức ăn cho nhà hàng khách sạn tích hợp AI',
+            'https://system-waste-less-ai-1.onrender.com/',
+            'Dự án khóa luận tốt nghiệp gồm 5 người có tích hợp AI.',
+            ['React', 'Tailwind', 'Node.js', 'Gemini AI API', 'PostgreSQL', 'REST API'],
+            fwmsImg,
             'LIVE',
             [
                 'Phát triển giao diện hệ thống bằng React và Tailwind CSS.',
@@ -212,13 +212,13 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
         );
 
         const erpProject1 = (key: string) => getErpCard(
-            key, 
-            'ERP – EXTERNAL OPERATIONS MANAGEMENT', 
-            '', 
-            'Company bidding project · Confidential', 
-            ['React', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Docker'], 
-            vaecoImg, 
-            'BIDDING', 
+            key,
+            'ERP – EXTERNAL OPERATIONS MANAGEMENT',
+            '',
+            'Company bidding project · Confidential',
+            ['React', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Docker'],
+            vaecoImg,
+            'BIDDING',
             [
                 'Developed responsive ERP interfaces for external operations management using React and Tailwind CSS.',
                 'Integrated RESTful APIs with Spring Boot backend and PostgreSQL.',
@@ -227,13 +227,13 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
             ]
         );
         const erpProject2 = (key: string) => getErpCard(
-            key, 
-            'INTERNAL CMS – CONTENT MANAGEMENT SYSTEM', 
-            '', 
-            'Internal company project · Confidential · In Development', 
-            ['Next.js', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Docker'], 
-            cmsImg, 
-            'DEVELOPMENT', 
+            key,
+            'INTERNAL CMS – CONTENT MANAGEMENT SYSTEM',
+            '',
+            'Internal company project · Confidential · In Development',
+            ['Next.js', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Docker'],
+            cmsImg,
+            'DEVELOPMENT',
             [
                 'Developed CMS interfaces and content management workflows using Next.js and Tailwind CSS.',
                 'Integrated RESTful APIs with Spring Boot backend.',
