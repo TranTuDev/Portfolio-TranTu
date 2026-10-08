@@ -1,0 +1,85 @@
+.shadow-glow-p {
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.8);
+}
+
+.shadow-glow-t {
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.8);
+}
+
+.shadow-glow-a {
+    box-shadow: 0 0 15px rgba(234, 88, 12, 0.8);
+}
+
+.btn-hover-animate {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease-in-out;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -15%;
+        width: 0px;
+        height: 106%;
+        transform: skew(45deg);
+        z-index: -1;
+        transition: width 0.4s ease-in-out;
+    }
+
+    &.primary::after {
+        background: #ffb4a8;
+    }
+
+    &.secondary::after {
+        background: #e2e2e2;
+    }
+
+    &.white::after {
+        background: white;
+    }
+
+    &:hover::after {
+        width: 130%;
+    }
+}
+
+.btn-submit-animate {
+    position: relative;
+    overflow: hidden;
+    background-color: #b80000;
+    color: white;
+    border: 2px solid #b80000;
+    font-weight: bold;
+    padding: 12px 48px;
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+    z-index: 1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: -15%;
+        width: 0px;
+        height: 106%;
+        background: white;
+        transform: skew(45deg);
+        z-index: -1;
+        transition: width 0.4s ease-in-out;
+    }
+
+    &:hover {
+        color: #b80000;
+    }
+
+    &:hover::after {
+        width: 130%;
+    }
+}

@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "about": "Về tôi",
+    "skills": "Kỹ năng",
+    "projects": "Dự án",
+    "contact": "Liên hệ",
+    "home": "Trang chủ",
+    "experience": "Kinh nghiệm",
+    "interests": "Sở thích"
+  },
+  "about": {
+    "title": "Về Tôi",
+    "education": "Học vấn",
+    "education_val": "Đại học Duy Tân",
+    "role": "Vai trò",
+    "role_val": "Fullstack Developer",
+    "location": "Vị trí",
+    "location_val": "Việt Nam",
+    "focus": "Định hướng",
+    "focus_val": "Phát triển Web",
+    "accordion": [
+      {
+        "title": "Bạn là ai và định hướng của bạn là gì?",
+        "content": "Tôi là TranTu, một Fullstack Developer. Tôi luôn dành sự đam mê lớn cho việc phát triển và xây dựng các ứng dụng web hiện đại."
+      },
+      {
+        "title": "Bạn đảm nhận những công việc nào trong dự án?",
+        "content": "Tôi thích tham gia vào toàn bộ quy trình phát triển của một sản phẩm. Công việc của tôi trải dài từ việc thiết kế giao diện người dùng (UI) tương thích nhiều thiết bị, cho đến việc xây dựng hệ thống backend, thiết kế API và quản lý cơ sở dữ liệu."
+      },
+      {
+        "title": "Bộ công nghệ (Tech Stack) hiện tại của bạn là gì?",
+        "content": "Tôi luôn không ngừng học hỏi để tối ưu hóa công việc. Hiện tại, tôi đang tập trung nâng cao kỹ năng chuyên sâu với React, Java, Spring Boot, PostgreSQL và WordPress."
+      }
+    ]
+  },
+  "banner": {
+    "im": "TÔI LÀ",
+    "contact_us": "LIÊN HỆ",
+    "download_cv": "TẢI CV",
+    "years_exp": "Năm KN",
+    "project": "Dự án",
+    "slide_1_subtitle": "Xây dựng các ứng dụng web hiện đại, mở rộng và hướng tới người dùng.",
+    "slide_1_desc": "Tôi là một Fullstack Developer đam mê xây dựng các ứng dụng web từ giao diện frontend cho đến hệ thống backend và cơ sở dữ liệu.",
+    "slide_2_subtitle": "Tạo ra các trải nghiệm tương tác WebGL chân thực.",
+    "slide_2_desc": "Chuyên về render hiệu suất cao, animation mượt mà, và mang ý tưởng sáng tạo lên trình duyệt.",
+    "slide_3_subtitle": "Tạo ra các trải nghiệm web hiện đại và thu hút.",
+    "slide_3_desc": "Tập trung xây dựng các website responsive, hiệu suất cao với React, JavaScript, Bootstrap, GSAP và các công nghệ frontend mới nhất."
+  },
+  "skills": {
+    "title": "Kỹ năng"
+  },
+  "project": {
+    "title": "Dự án",
+    "tab_1": "Templates",
+    "tab_2": "Wordpress",
+    "tab_3": "ERP & CRM & CMS"
+  },
+  "experience": {
+    "title": "Kinh nghiệm",
+    "items": [
+      {
+        "date": "2022",
+        "role": "Sinh viên Công nghệ Phần mềm @ Đại học Duy Tân",
+        "desc": "Bắt đầu hành trình theo đuổi đam mê lập trình, từng bước xây dựng tư duy logic và nền tảng kiến thức vững chắc về kỹ thuật phần mềm."
+      },
+      {
+        "date": "10/2025 - 03/2026",
+        "role": "Frontend Developer @ Themesflat",
+        "desc": "Triển khai UI/UX và phát triển các template thương mại chất lượng cao trên ThemeForest. Tập trung tối ưu hóa giao diện đa màn hình (Responsive) với HTML, CSS và jQuery."
+      },
+      {
+        "date": "04/2026 - Hiện tại",
+        "role": "Frontend / Fullstack Developer @ CodLUCK Technology",
+        "desc": "Tham gia xây dựng các hệ thống quản trị lớn (ERP, CRM, CMS) và dự án WordPress. Chuyên phát triển các component React tái sử dụng, tích hợp RESTful APIs, xử lý database và làm việc nhóm hiệu quả qua Git/GitLab."
+      },
+      {
+        "date": "2022 - 2026",
+        "role": "Cử nhân Công nghệ Thông tin @ Đại học Duy Tân",
+        "desc": "Hoàn thành chương trình đào tạo chuyên ngành, kết hợp hoàn hảo giữa kiến thức khoa học máy tính hàn lâm và kinh nghiệm thực chiến từ doanh nghiệp."
+      }
+    ]
+  },
+  "interests": {
+    "title": "Sở thích",
+    "tech": "💻 Công nghệ",
+    "tech_desc": "Khám phá các công nghệ mới, kiến trúc phần mềm và AI.",
+    "badminton": "🏸 Cầu lông",
+    "badminton_desc": "Chơi cầu lông giúp tôi vận động, thư giãn và cân bằng cuộc sống.",
+    "learning": "📚 Học tập",
+    "learning_desc": "Trau dồi tiếng Anh và liên tục học hỏi các công nghệ mới.",
+    "music": "🎵 Âm nhạc",
+    "music_desc": "Nghe nhạc trong lúc code và làm việc.",
+    "trading": "📈 Giao dịch",
+    "trading_desc": "Tìm hiểu thị trường Forex và Crypto, tập trung vào phân tích thị trường và quản lý rủi ro."
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "subtitle": "Hãy cùng hợp tác.",
+    "address": "Địa chỉ",
+    "address_val": "Xã Xuân Phú, TP Đà Nẵng",
+    "phone": "Số điện thoại",
+    "mail": "Email"
+  },
+  "form": {
+    "title": "Điền vào biểu mẫu",
+    "name": "Nhập tên của bạn*",
+    "email": "Nhập email của bạn*",
+    "phone": "Nhập số điện thoại*",
+    "website": "Trang web*",
+    "message": "Nhập tin nhắn của bạn*",
+    "save": "Lưu tên, email và trang web của tôi cho lần sau",
+    "submit": "GỬI",
+    "success": "Tin nhắn của bạn đã được gửi thành công!",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại sau."
+  },
+  "footer": {
+    "copyright": "Bản quyền © 2026 của TranTuDev. Bảo lưu mọi quyền.",
+    "sitemap": "Sơ đồ trang",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ"
+  },
+  "common": {
+    "readMore": "Xem thêm",
+    "close": "ĐÓNG",
+    "submit": "GỬI YÊU CẦU"
+  }
+}

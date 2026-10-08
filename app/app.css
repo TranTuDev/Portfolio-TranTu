@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@import "./asset/scss/animations.scss";
+@import "./asset/scss/pagination.scss";
+@import "./asset/scss/button.scss";
+
+@theme {
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-blue-light: #B4D3FF;
+  --color-navy: #182E4C;
+  --color-red: #B80000;
+  --color-gray: #7A7F86;
+  --color-gray-light: #E5E5E5;
+  --color-gradient-custom: linear-gradient(to right, #DF9D9D 0%, #9868A1 52%, #725E9C 100%);
+  --color-gradient-navy: linear-gradient(to right, #182E4C00 0%, #182E4C 100%);
+
+  /* Spacing */
+  --spacing-micro: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 80px;
+  --spacing-3xl: 120px;
+
+  /* Font Sizes */
+  --text-display: 56px;
+  --text-h1: 40px;
+  --text-h2: 30px;
+  --text-h3: 22px;
+  --text-h4: 16px;
+  --text-body-lg: 18px;
+  --text-body: 13px;
+  --text-badge: 10px;
+
+  /* Fonts */
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-heading: "Play", ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  overflow-x: clip;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "home": "Home",
+    "experience": "Experience",
+    "interests": "Interests"
+  },
+  "about": {
+    "title": "About Me",
+    "education": "Education",
+    "education_val": "Duy Tan University",
+    "role": "Role",
+    "role_val": "Fullstack Developer",
+    "location": "Location",
+    "location_val": "Vietnam",
+    "focus": "Focus",
+    "focus_val": "Web Development",
+    "accordion": [
+      {
+        "title": "Who are you and what is your focus?",
+        "content": "I am TranTu, a Fullstack Developer. I am deeply passionate about building and developing modern web applications."
+      },
+      {
+        "title": "What is your role in a project?",
+        "content": "I enjoy being involved in the entire development process. My work ranges from crafting responsive user interfaces to building backend systems, designing RESTful APIs, and managing databases."
+      },
+      {
+        "title": "What is your current tech stack?",
+        "content": "I am continuously learning to optimize my work. Currently, I am focusing on advancing my skills in React, Java, Spring Boot, PostgreSQL, and WordPress."
+      }
+    ]
+  },
+  "banner": {
+    "im": "I'M",
+    "contact_us": "CONTACT US",
+    "download_cv": "DOWNLOAD CV",
+    "years_exp": "Years Exp",
+    "project": "Project",
+    "slide_1_subtitle": "Building modern, scalable and user-focused web applications.",
+    "slide_1_desc": "I’m a Fullstack Developer passionate about building web applications from frontend interfaces to backend systems and databases.",
+    "slide_2_subtitle": "Crafting immersive interactive experiences and WebGL.",
+    "slide_2_desc": "Specializing in high-performance rendering, fluid animations, and bringing creative concepts to life in the browser.",
+    "slide_3_subtitle": "Crafting modern and engaging web experiences.",
+    "slide_3_desc": "Focused on building responsive, high-performance websites and web applications with React, JavaScript, Bootstrap, GSAP, and modern frontend technologies."
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "project": {
+    "title": "Project",
+    "tab_1": "Templates",
+    "tab_2": "Wordpress",
+    "tab_3": "ERP & CRM & CMS"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "date": "2022",
+        "role": "Software Engineering Student @ Duy Tan University",
+        "desc": "Started my programming journey, building a strong foundation in logical thinking, computer science, and software development methodologies."
+      },
+      {
+        "date": "10/2025 - 03/2026",
+        "role": "Frontend Developer @ Themesflat",
+        "desc": "Developed and implemented high-quality commercial templates for ThemeForest. Specialized in pixel-perfect UI implementation and responsive design using HTML, CSS, and jQuery."
+      },
+      {
+        "date": "04/2026 - Present",
+        "role": "Frontend / Fullstack Developer @ CodLUCK Technology",
+        "desc": "Built complex enterprise systems (ERP, CRM, CMS) and WordPress projects. Focused on crafting reusable React components, integrating RESTful APIs, managing databases, and collaborating via Git/GitLab workflow."
+      },
+      {
+        "date": "2022 - 2026",
+        "role": "Bachelor of Information Technology @ Duy Tan University",
+        "desc": "Successfully completed the degree program, bridging theoretical computer science knowledge with practical, hands-on software development experience."
+      }
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "tech": "💻 Technology",
+    "tech_desc": "Exploring new technologies, software architecture and AI.",
+    "badminton": "🏸 Badminton",
+    "badminton_desc": "Playing badminton helps me stay active, relax, and maintain a healthy balance in life.",
+    "learning": "📚 Learning",
+    "learning_desc": "Improving my English and continuously learning new technologies.",
+    "music": "🎵 Music",
+    "music_desc": "Listening to music while coding and working.",
+    "trading": "📈 Trading",
+    "trading_desc": "Exploring Forex and Crypto markets, with a focus on market analysis and risk management."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's work together.",
+    "address": "Address Line",
+    "address_val": "Xã Xuân Phú, TP Đà Nẵng",
+    "phone": "Phone Number",
+    "mail": "Mail Address"
+  },
+  "form": {
+    "title": "Fill Up The Form",
+    "name": "Enter your name*",
+    "email": "Enter your mail*",
+    "phone": "Enter your number*",
+    "website": "Website*",
+    "message": "Enter your Message*",
+    "save": "Save my name, email, and website in this browser for the next time",
+    "submit": "SUBMIT",
+    "success": "Your message has been sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 by TranTuDev. All Rights Reserved",
+    "sitemap": "Sitemap",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "readMore": "Read More",
+    "close": "CLOSE",
+    "submit": "SUBMIT"
+  }
+}

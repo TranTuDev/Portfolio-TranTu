@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.text-strip {
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: #000000;
+    padding: 12px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    // width is 100% of the parent, but visually extends via transform on parent
+    width: 100%;
+
+    &__marquee {
+        display: flex;
+        flex-wrap: nowrap;
+        width: max-content;
+        animation: marquee-scroll 20s linear infinite;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        padding: 0 24px;
+        flex-shrink: 0;
+        font-family: 'Jost', sans-serif;
+    }
+}
+
+@keyframes marquee-scroll {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+}
+

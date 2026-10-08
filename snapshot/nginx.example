@@ -1,0 +1,15 @@
+erver {
+    listen 8090;                   # Đã sửa thành 8090
+    server_name localhost;         # Đã sửa thành localhost
+    # Trỏ đường dẫn root đến thư mục chứa code tĩnh đã copy
+    root /var/www/vaeco-app;       # Đã sửa thành /var/www/vaeco-app
+    index index.html;
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, no-transform";
+    }
+}
+
