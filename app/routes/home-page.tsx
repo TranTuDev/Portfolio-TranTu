@@ -3,8 +3,8 @@ import { HomePage } from "../pages/home-page";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Home | VAECO" },
-    { name: "description", content: "VAECO Home Page" },
+    { title: "Portfolio | Tran Minh Tu" },
+    { name: "description", content: "Portfolio of Tran Minh Tu, Software Engineer" },
   ];
 }
 
