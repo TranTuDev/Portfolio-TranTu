@@ -36,27 +36,27 @@ export function Banner() {
                 { y: 30, opacity: 0 },
                 { y: 0, opacity: 1, stagger: 0.1, duration: 0.8, delay: 0.2 }
             )
-            .fromTo(
-                ".banner-img",
-                { scale: 0.95, opacity: 0 },
-                { scale: 1, opacity: 1, duration: 0.8 },
-                "-=0.6"
-            )
-            .fromTo(
-                ".banner-badge",
-                { scale: 0, opacity: 0, rotation: -15 },
-                { scale: 1, opacity: 1, rotation: 0, stagger: 0.2, duration: 0.8, ease: "back.out(1.5)" },
-                "-=0.4"
-            )
-            // Hiệu ứng lơ lửng (Floating/Bouncing) chạy liên tục vô tận sau khi xuất hiện xong
-            .to(".banner-badge", {
-                y: -12,
-                duration: 1.5,
-                ease: "sine.inOut",
-                repeat: -1,
-                yoyo: true,
-                stagger: 0.3 // Badge 2 lơ lửng trễ hơn badge 1 một chút tạo cảm giác tự nhiên
-            });
+                .fromTo(
+                    ".banner-img",
+                    { scale: 0.95, opacity: 0 },
+                    { scale: 1, opacity: 1, duration: 0.8 },
+                    "-=0.6"
+                )
+                .fromTo(
+                    ".banner-badge",
+                    { scale: 0, opacity: 0, rotation: -15 },
+                    { scale: 1, opacity: 1, rotation: 0, stagger: 0.2, duration: 0.8, ease: "back.out(1.5)" },
+                    "-=0.4"
+                )
+                // Hiệu ứng lơ lửng (Floating/Bouncing) chạy liên tục vô tận sau khi xuất hiện xong
+                .to(".banner-badge", {
+                    y: -12,
+                    duration: 1.5,
+                    ease: "sine.inOut",
+                    repeat: -1,
+                    yoyo: true,
+                    stagger: 0.3 // Badge 2 lơ lửng trễ hơn badge 1 một chút tạo cảm giác tự nhiên
+                });
 
             // Parallax background
             gsap.utils.toArray('.banner-bg').forEach((bg: any) => {
@@ -135,7 +135,7 @@ export function Banner() {
                                     {slide.desc}
                                 </p>
                                 <div className="banner-elem flex flex-wrap items-center gap-4 mt-4">
-                                    <button 
+                                    <button
                                         onClick={(e) => {
                                             e.preventDefault();
                                             gsap.to(window, { duration: 1, scrollTo: "#contact", ease: "power3.inOut" });
@@ -145,9 +145,9 @@ export function Banner() {
                                         {t('banner.contact_us')}
                                         <span className="w-5 h-5 flex items-center justify-center"><img src={nextIcon} alt="Next" className="w-full h-full group-hover:brightness-0" /></span>
                                     </button>
-                                    <a 
-                                        href="/CV.pdf"
-                                        download="TranMinhTu-CV.pdf"
+                                    <a
+                                        href="/CV_Tran-Minh-Tu.pdf"
+                                        download="CV_Tran-Minh-Tu.pdf"
                                         className="btn-hover-animate cursor-pointer secondary px-6 py-3 border border-white text-white hover:text-[#131313] font-bold flex items-center gap-3 group inline-flex"
                                     >
                                         {t('banner.download_cv')}
