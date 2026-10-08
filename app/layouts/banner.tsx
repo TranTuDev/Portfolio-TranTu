@@ -145,10 +145,14 @@ export function Banner() {
                                         {t('banner.contact_us')}
                                         <span className="w-5 h-5 flex items-center justify-center"><img src={nextIcon} alt="Next" className="w-full h-full group-hover:brightness-0" /></span>
                                     </button>
-                                    <button className="btn-hover-animate cursor-pointer secondary px-6 py-3 border border-white text-white hover:text-[#131313] font-bold flex items-center gap-3 group">
+                                    <a 
+                                        href="/CV.pdf"
+                                        download="TranMinhTu-CV.pdf"
+                                        className="btn-hover-animate cursor-pointer secondary px-6 py-3 border border-white text-white hover:text-[#131313] font-bold flex items-center gap-3 group inline-flex"
+                                    >
                                         {t('banner.download_cv')}
                                         <span className="w-5 h-5 flex items-center justify-center"><img src={downloadIcon} alt="Download" className="w-full h-full group-hover:brightness-0" /></span>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="hidden lg:flex justify-end items-center">
