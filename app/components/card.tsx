@@ -145,21 +145,21 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
         const wp4 = (key: string) => getWordPressCard(key, 'ICMS Cyber Solution - インシデント対応サービス', 'https://icmscyber.com/', 'https://forensics.icmscyber.com/', 'インシデントの実態を解明し、再発を防ぐ。デジタルフォレンジック・インシデント対応サービス～現地での解析調査から、セキュリティ提案・対策支援まで～不正アクセス・マルウェア感染・退職者のデータ持ち出し・メール不正利用など、あらゆるサイバーインシデントに対応。', ['WordPress', 'PHP', 'ACF'], icmsImg);
 
         const getTemplateCard = (keyName: string, title: string, techStack: string[], href: string, imgSrc: any) => (<React.Fragment key={keyName}>
-            <a href={href} target="_blank" rel="noopener noreferrer" className="relative bg-[#2a2a2a] p-8 flex flex-col justify-between gap-8 shadow-xl group rounded-xl hover:bg-[#333] transition-colors block cursor-pointer">
+            <div className="relative bg-[#2a2a2a] p-8 flex flex-col justify-between gap-8 shadow-xl group rounded-xl hover:bg-[#333] transition-colors block">
                 <div className="flex flex-col gap-6">
                     <div className="relative w-full h-56 bg-[#0e0e0e] overflow-hidden shadow-inner flex flex-col justify-between p-4 rounded-lg">
                         <img className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-[1.06] transition-all duration-500 ease-[cubic-bezier(0,0,0.44,1.18)]" alt={title} src={imgSrc?.src || imgSrc || ''} />
                         <div className="absolute top-1/2 left-1/2 w-[200%] h-0 bg-white/30 -translate-x-1/2 -translate-y-1/2 -rotate-45 z-[1] group-hover:h-[250%] group-hover:bg-transparent transition-all duration-500 ease-linear pointer-events-none"></div>
                         <div className="absolute inset-0 bg-gradient-to-t from-[#0e0e0e] via-[#0e0e0e]/40 to-transparent"></div>
                         <div className="relative z-10 flex items-center justify-between">
-                            <div className="flex items-center gap-1.5 bg-[#0e0e0e]/90 px-3 py-1 text-[#ebb4f3] text-xs font-semibold rounded"><span className="w-1.5 h-1.5 rounded-full bg-[#ebb4f3] animate-pulse"></span><span>TEMPLATE · V1.0.0</span></div>
+                            <div className="flex items-center gap-1.5 bg-[#0e0e0e]/90 px-3 py-1 text-[#ebb4f3] text-xs font-semibold rounded"><span className="w-1.5 h-1.5 rounded-full bg-[#ebb4f3] animate-pulse"></span><span>TEMPLATE A V1.0.0</span></div>
                             <span className="text-xs text-gray-300 font-mono bg-[#0e0e0e]/80 px-2 py-1 rounded">DEPLOYMENT: PASS</span>
                         </div>
                         <div className="relative z-10"><span className="text-xs text-[#ebb4f3] bg-[#0e0e0e]/80 px-2 py-1 font-mono rounded">RESPONSIVE UI</span></div>
                     </div>
                     <div className="flex flex-col gap-2">
                         <div className="flex items-center gap-2 text-xs text-[#ffb4a8]"><span className="w-1.5 h-1.5 rounded-full bg-[#ffb4a8]"></span><span>STATUS: LIVE</span></div>
-                        <h3 className="text-2xl font-bold uppercase text-white tracking-tight">{title}</h3>
+                        <a href="https://preview.themeforest.net/item/vince-multipurpose-ecommerce-html5-template/full_screen_preview/57202368" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold uppercase text-white tracking-tight hover:text-[#ebb4f3] transition-colors">{title}</a>
                         <p className="text-sm text-gray-400">A modern, high-performance portfolio template with advanced animations, optimized for developers and designers.</p>
                     </div>
                     <div className="flex flex-col gap-2"><span className="text-xs font-bold uppercase tracking-widest text-gray-500">TECH STACK</span>
@@ -186,14 +186,14 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
                         <div className="bg-[#1f1f1f] p-2 flex flex-col rounded"><span className="text-[10px] text-gray-500 uppercase">RESPONSIVE</span><span className="text-sm text-[#a3c9ff] font-bold">ALL DEVICES</span></div>
                     </div>
                     <div className="flex items-center gap-4">
-                        <div className="btn-hover-animate white flex-1 py-2 bg-[#b80000] text-white text-center text-xs uppercase font-bold tracking-wider hover:text-[#b80000] flex items-center justify-center gap-2 rounded"><span>LIVE DEMO</span><ArrowUpRight className="w-[16px] h-[16px] shrink-0" /></div>
-                        <div className="px-4 py-2 bg-[#1f1f1f] text-white text-xs uppercase tracking-wider hover:bg-[#2a2a2a] transition-all flex items-center justify-center gap-2 border border-white/10 rounded"><span>GITHUB</span><Terminal className="w-[16px] h-[16px] shrink-0" /></div>
+                        <a href={href} target="_blank" rel="noopener noreferrer" className="btn-hover-animate white flex-1 py-2 bg-[#b80000] text-white text-center text-xs uppercase font-bold tracking-wider hover:text-[#b80000] flex items-center justify-center gap-2 rounded"><span>LIVE DEMO</span><ArrowUpRight className="w-[16px] h-[16px] shrink-0" /></a>
+                        {/* <div className="px-4 py-2 bg-[#1f1f1f] text-white text-xs uppercase tracking-wider hover:bg-[#2a2a2a] transition-all flex items-center justify-center gap-2 border border-white/10 rounded"><span>GITHUB</span><Terminal className="w-[16px] h-[16px] shrink-0" /></div> */}
                     </div>
                 </div>
-            </a>
+            </div>
         </React.Fragment>);
 
-        const t1 = (key: string) => getTemplateCard(key, 'VENETA // PORTFOLIO TEMPLATE', ['Next.js', 'Tailwind CSS', 'GSAP'], 'https://preview.themeforest.net/item/vince-multipurpose-ecommerce-html5-template/full_screen_preview/57202368', templateImg);
+        const t1 = (key: string) => getTemplateCard(key, 'VENETA // PORTFOLIO TEMPLATE', ['Next.js', 'Tailwind CSS', 'GSAP'], 'https://veneta.vercel.app/', templateImg);
 
         const fwmsProject = (key: string) => getErpCard(
             key,
