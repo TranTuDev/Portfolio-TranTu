@@ -213,7 +213,7 @@ export function Card({ activeTab = 0 }: { activeTab?: number }) {
 
         const erpProject1 = (key: string) => getErpCard(
             key,
-            'ERP – EXTERNAL OPERATIONS MANAGEMENT',
+            'VAECO - VIETNAM AIRLINES',
             '',
             'Company bidding project · Confidential',
             ['React', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'REST API', 'Docker'],
